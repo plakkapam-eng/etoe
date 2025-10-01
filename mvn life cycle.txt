@@ -1,0 +1,40 @@
+maven life cycle
+******************
+life cycle :order of build exection ) build cycle:default ,build file,dependencies,plugins,profiles,depolyments,settings,codecoverage,unit testing,code coverage
+sast,depency,release process,intergrating code build+with maven,intergrating maven+jfrong
+ *************************************************
+microservices 
+
+clean life cycle:pre clean
+ clean
+post-clean
+ default life cycle:
+******************
+validate  (mnv) pom.xml file
+compile 
+test-compile
+test
+prepare-package
+pre-intergation-test
+intergation
+post-intergration-test
+verfy
+install
+depoly
+undepoly
+redepoly
+ site lifecycle
+*********************
+pre-site,pre,post-site,site-depoly
+
+shanpshot repo,relases repo
+
+
+mvn archetype:generate -DgroupId=com.project.samplewebproj -DartfactId=webappproject -Darchetype 
+
+
+
+
+
+
+
